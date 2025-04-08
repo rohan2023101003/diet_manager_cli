@@ -56,8 +56,8 @@ yada/
 ## Building the Project
 
 ```bash
-mkdir build
 cd build
+rm -rf CMakeCache.txt CMakeFiles/
 cmake ..
 make
 ```
