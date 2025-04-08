@@ -49,6 +49,20 @@ yada/
 │   ├── composite_foods.txt
 │   └── daily_logs/
 ├── include/
+│   ├── user/
+│   │   └── user.h
+│   ├── food/
+│   │   ├── food.h
+│   │   ├── basic_food.h
+│   │   └── composite_food.h
+│   ├── database/
+│   │   └── database.h
+│   ├── logger/
+│   │   └── logger.h
+│   └── utils/
+│       └── utils.h
+├── CMakeLists.txt
+├── Design_Document.pdf
 ├── build/
 └── README.md
 ```
